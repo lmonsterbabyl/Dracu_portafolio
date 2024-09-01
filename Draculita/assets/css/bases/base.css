@@ -1,0 +1,24 @@
+@import url('./variables.css');
+
+:root {
+    --neutral-color-light: #000000; /* Definir color negro si es necesario */
+}
+
+body {
+    background-color: var(--neutral-color-light);
+
+    font-family: var(--body-font);
+}
+
+.nav-links {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 900px;
+}

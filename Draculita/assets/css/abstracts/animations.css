@@ -1,0 +1,19 @@
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    } to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.fade-in-up {
+    opacity: 0;
+    animation-name: fade-in-up;
+}

@@ -1,0 +1,48 @@
+nav {
+    background-color: transparent;
+    background-color: transparent;
+        backdrop-filter: blur(0px);
+    
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    
+        width: 100%;
+        padding: 1rem 2rem;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        font-family: var(--navbar-font);
+}
+
+.logo {
+    border-radius: 50%;
+    color: #9b4a84;
+    background-color:#9b4a84 ;
+    
+}
+
+.logo img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.nav-links a {
+    
+    text-shadow: 4px 4px 4px  #9b4a84;
+}
+
+.logo, .logo img, .nav-links .inline-block{
+    transition: .5s;
+}
+
+.logo:hover, .logo img:hover, .nav-links .inline-block:hover {
+    transform: scale(1.2);
+}
+
+.logo:hover {
+    
+    box-shadow: 0 0 15px 3px  #ec42ff;
+}

@@ -1,0 +1,23 @@
+
+/* Estilo básico del botón */
+.btn {
+    background-color: var(--neutral-color-light); 
+    color: var(--neutral-color-dark); 
+    padding: .6rem 1.8rem;
+    border-radius: 20px;
+
+    font-family: var(--navbar-font);
+    font-weight: 400; 
+    font-size: 1rem;
+    text-transform: none;
+
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.5s; 
+}
+
+/* Estilo del botón en hover */
+.btn:hover {
+    background-color: var(--neutral-color-light);
+    color: var(--secondary-color400);
+    transform: scale(1.2); 
+}
